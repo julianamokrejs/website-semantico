@@ -1,0 +1,66 @@
+/* GERAL */
+
+body {
+    color: #4A4A4A;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.coluna-rafa {
+    width: 10%;
+    display: inline-block;
+}
+
+.coluna-principal {
+    width: 700px;
+}
+
+.tudo {
+    margin: auto 150px;
+}
+
+header {
+    text-align: center;
+    color: purple;
+}
+
+aside {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 50px 93px;
+    margin: 40px;
+    vertical-align: top;
+    border: 1px solid grey;
+    height: 312px;
+    width: 220px;
+}
+
+main {
+    margin: 20px;
+    display: inline-block;
+    color:#4A4A4A;
+    width: 200px;
+    height: 500px;
+}
+
+article {
+    width: 600px;
+}
+
+p {
+    font-size: 14px;
+    margin: 0;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h3 {
+    margin: 0;
+    margin-top: 20px;
+}
