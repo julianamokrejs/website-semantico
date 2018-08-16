@@ -1,12 +1,17 @@
 /* GERAL */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     color: #4A4A4A;
     font-family: 'Lato', Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 .coluna-rafa {
-    width: 10%;
+    width: 20%;
     display: inline-block;
 }
 
@@ -21,6 +26,8 @@ body {
 header {
     text-align: center;
     color: purple;
+    margin: 0 auto;
+    padding-top: 80px;
 }
 
 aside {
@@ -30,8 +37,8 @@ aside {
     margin: 40px;
     vertical-align: top;
     border: 1px solid grey;
-    height: 312px;
-    width: 220px;
+    height: 445px;
+    width: 420px;
 }
 
 main {
@@ -43,7 +50,7 @@ main {
 }
 
 article {
-    width: 600px;
+    width: 500px;
 }
 
 p {
@@ -63,4 +70,45 @@ h1 {
 h3 {
     margin: 0;
     margin-top: 20px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 0px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: white;
+    padding: 30px;
+    height: 10px;
+    margin: 0 auto;
+}
+
+ul {
+    display: inline;
+    margin: 0 450px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .15);
+    padding: 30px;
+}
+
+.menu__item {
+    display: inline;
 }
